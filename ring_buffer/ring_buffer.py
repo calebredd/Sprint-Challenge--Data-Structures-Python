@@ -12,4 +12,4 @@ class RingBuffer:
         else:
             self.storage.append(item)
     def get(self):
-        print (self.storage)
+        return self.storage
